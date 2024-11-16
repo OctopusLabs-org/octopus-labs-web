@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./MainSection.module.css";
+import Button from "../Button";
 
 const MainSection = () => {
   return (
@@ -16,6 +17,9 @@ const MainSection = () => {
           solutions that align perfectly with your goals. Let’s bring your ideas
           to life with creativity and precision!
         </p>
+
+        <Button>Contact Us</Button>
+        <Button skin="outline">About Us</Button>
       </div>
 
       <div className={styles.gridItem}>Octopus Logo</div>
