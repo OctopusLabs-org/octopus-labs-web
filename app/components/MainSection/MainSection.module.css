@@ -1,0 +1,32 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  gap: 1rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.mainHeading {
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.mainTitle {
+  color: var(--accent-color);
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .gridContainer {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+  }
+}
