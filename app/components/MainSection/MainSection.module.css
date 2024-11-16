@@ -37,6 +37,15 @@
   gap: 2rem;
 }
 
+.gridItem.image {
+  justify-self: center;
+  align-content: center;
+}
+
+.gridItem.image img {
+  width: 450px;
+}
+
 @media screen and (min-width: 400px) {
   .btnGroup {
     gap: 3rem;

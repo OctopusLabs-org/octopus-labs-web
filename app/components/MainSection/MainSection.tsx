@@ -23,7 +23,9 @@ const MainSection = () => {
         </div>
       </div>
 
-      <div className={styles.gridItem}>Octopus Logo</div>
+      <div className={[styles.gridItem, styles.image].join(" ")}>
+        <img src="images/octopus.svg" alt="Octopus" />
+      </div>
     </div>
   );
 };
