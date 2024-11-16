@@ -39,7 +39,7 @@ body::selection {
 }
 
 .content-wrapper {
-  padding: 0 45px;
+  padding: 0 35px;
 }
 
 h1 {
@@ -58,6 +58,7 @@ h1,
 h2,
 h3 {
   color: var(--primary-color);
+  line-height: 1.2;
 }
 
 a {

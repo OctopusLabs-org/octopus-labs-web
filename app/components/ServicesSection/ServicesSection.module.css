@@ -5,7 +5,7 @@
 }
 
 .serviceWrapper {
-  margin-top: 5rem;
+  margin-top: 8rem;
   /* background-color: pink; */
 }
 
@@ -21,17 +21,25 @@
   border: 2px solid var(--primary-color);
   border-radius: 20px;
   padding: 3rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .gridItem .heading {
-  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.gridItem img {
+  width: auto;
+  height: 250px;
 }
 
 @media screen and (min-width: 1024px) {
   .serviceGrid {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
-    gap: 3rem;
     justify-items: center;
   }
 

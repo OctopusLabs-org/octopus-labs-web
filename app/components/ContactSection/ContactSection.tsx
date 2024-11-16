@@ -1,3 +1,4 @@
+import Button from "../Button";
 import Input from "../Input";
 import styles from "./ContactSection.module.css";
 
@@ -17,6 +18,7 @@ const ContactSection = () => {
           name="message"
           rows={5}
         />
+        <Button>Send</Button>
       </div>
     </div>
   );
