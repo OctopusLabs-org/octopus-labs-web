@@ -10,6 +10,7 @@
   grid-template-rows: repeat(2, auto);
   gap: 1rem;
   margin-top: 40px;
+  gap: 5rem;
 }
 
 .mainHeading {
@@ -24,6 +25,14 @@
   font-weight: 600;
   font-style: italic;
   margin-bottom: 1rem;
+}
+
+.mainDescription {
+  margin-bottom: 2.5rem;
+}
+
+.btnGroup button {
+  margin-right: 2rem;
 }
 
 @media screen and (min-width: 768px) {
