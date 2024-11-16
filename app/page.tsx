@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div>
       <NavBar />
-      <div className="content-wrapper">
+      <div className="content-wrapper" style={{ marginBottom: "30vh" }}>
         <MainSection />
         <ServicesSection />
         <ContactSection />

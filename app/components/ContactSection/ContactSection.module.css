@@ -4,6 +4,22 @@
   margin-right: auto;
 }
 
-.formWrapper {
+.contactSection {
   margin-top: 5rem;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1024px) {
+  .sectionTitle {
+    text-align: center;
+  }
 }
