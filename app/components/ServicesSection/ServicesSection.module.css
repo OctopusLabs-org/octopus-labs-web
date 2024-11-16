@@ -1,0 +1,42 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.serviceWrapper {
+  margin-top: 5rem;
+  /* background-color: pink; */
+}
+
+.serviceGrid {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, auto);
+  gap: 2rem;
+}
+
+.gridItem {
+  border: 2px solid var(--primary-color);
+  border-radius: 20px;
+  padding: 3rem;
+}
+
+.gridItem .heading {
+  text-align: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .serviceGrid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 3rem;
+    justify-items: center;
+  }
+
+  .gridItem {
+    min-width: 500px;
+    max-width: 500px;
+  }
+}
